@@ -6,17 +6,20 @@
 
 header {
     height: 150px;
-    border: 2px solid black;
 }
 
 ul {
     list-style: none;
 }
 
+button {
+    padding: 10px;
+    border-radius: 5px;
+}
+
 .head-left {
     height: 100%;
-    width: 30%;
-    background-color: yellow;
+    width: 40%;
     float: left;
     display: flex;
     justify-content: center;
@@ -25,8 +28,7 @@ ul {
 
 .head-right {
     height: 100%;
-    width: 70%;
-    background-color: grey;
+    width: 60%;
     float: left;
     display: flex;
     justify-content: center;
@@ -43,7 +45,7 @@ ul {
     height: 100%;
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 30%;
 }
 
 .logo img {
@@ -52,7 +54,7 @@ ul {
 }
 
 .right-part-left {
-    width: 50%;
+    width: 70%;
 }
 
 .right-part-left p {
@@ -75,7 +77,15 @@ ul {
     border: 1px solid black;
     display: none;
 }
+.dropdown.wider {
+    left: 20%;
+}
 
 .dropdown.active {
     display: block;
+}
+.submenu {
+    float: left;
+    margin-right: 20px;
+    padding: 0 10px;
 }
