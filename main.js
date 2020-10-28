@@ -4,10 +4,12 @@ $(document).ready(function(){
     $('.drop-menu').each(function(){
         //entro col mouse su drop-menu
         $(this).mouseenter(function(){
-            $('.dropdown').addClass('active');
+            $(this).children('.dropdown').addClass('active');
         });
-        $('.head-right>ul>li').mouseleave(function(){
-            $('.dropdown').removeClass('active');
-        });
+
+    });
+
+    $('.head-right>ul>li').mouseleave(function(){
+        $('.dropdown').removeClass('active');
     });
 });
