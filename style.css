@@ -85,14 +85,19 @@ button {
     border: 1px solid grey;
     border-radius: 5px;
     display: none;
-    margin-top: 15px;
+    margin-top: 2px;
 }
+
 .dropdown.wider {
     left: 20%;
 }
 
 .dropdown.active {
     display: block;
+}
+
+.dropdown li {
+    margin: 10px 0;
 }
 
 .submenu {
@@ -102,6 +107,7 @@ button {
 }
 
 #login {
+    margin-left: 30px;
     margin-right: 10px;
     background-color: rgba(25, 28, 31, 0.16);
     border-color: rgba(25, 28, 31, 0.16);
